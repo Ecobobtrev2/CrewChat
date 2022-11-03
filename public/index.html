@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<title>CrewChat App</title>
+	</head>
+	<body>
+		<div class="join-container">
+			<header class="join-header">
+				<h1><i><img src="/user-secret-solid.png" alt="super-secret" class="super-secret"/></i> CrewChat</h1>
+			</header>
+			<main class="join-main">
+				<form action="chat.html">
+					<div class="form-control">
+						<label for="username">Username</label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Enter username..."
+							required
+						/>
+					</div>
+					<div class="form-control">
+						<label for="room">Room</label>
+						<select name="room" id="room" scroll="true">
+							<option value="Just Chatting">Just Chatting</option>
+							<option value="Homework Questions">Homework Questions</option>
+							<option value="Video Games">Video Games</option>
+							<option value="Books">Books</option>
+							<option value="Math">Math</option>
+							<option value="Emulators">Emulators</option>
+							<option value="PP1">PP1</option>
+						</select>
+					</div>
+					<button type="submit" class="btn">Join Chat</button>
+					<button type="click" class="btnv2">Allow Notifications</button>
+				</form>
+			</main>
+		</div>
+	</body>
+</html>
